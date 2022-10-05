@@ -1,0 +1,65 @@
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.2),
+        rgba(255,255,255,0.2)
+        ),
+        url("https://wallpapercave.com/wp/tCgsyok.jpg") 
+        center;
+        background-size: cover;
+  }
+  
+  .loginContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .loginInput{
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .loginButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #164a41;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s all ease-in;
+  }
+  
+  .loginButton:disabled{
+    background-color: #103b34;
+    cursor: not-allowed;
+  }
+
+  .loginButton:hover {
+    border: 3px solid #164a41;
+    color: #164a41;
+    background-color: transparent;
+    font-size: 16px;
+  }
+
+  .gotoButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #f1b24a;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s all ease-in;
+  }
+
+  .gotoButton:hover {
+    border: 3px solid #f1b24a;
+    color: #f1b24a;
+    background-color: transparent;
+    font-size: 16px;
+  }

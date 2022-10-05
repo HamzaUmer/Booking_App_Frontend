@@ -1,0 +1,46 @@
+.navbar {
+    height: 50px;
+    background-color: #164A41;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.username {
+    font-size: 16px;
+    margin-top: 4px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.navItemss {
+    display: flex;
+    flex-direction: row;
+}
+
+.navButton {
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #164A41;
+    transition: 0.5s all ease-in;
+}
+.navButton:hover {
+    border: 1px solid white;
+    background-color: #164A41;
+    color: white;
+}
